@@ -1,0 +1,146 @@
+body {
+  background-image: url("../images/bg-intro-desktop.png");
+  /* background-color: hsl(0, 100%, 74%); */
+  background-color: skyblue;
+}
+
+.textsection {
+  padding-left: 10rem;
+  padding-top: 12rem;
+  width: auto;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.textsection h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.textsection.p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.promo {
+  background-color: hsl(248, 32%, 49%);
+  width: 28rem;
+  height: 3rem;
+  margin: 1rem auto;
+  border-radius: 0.4rem;
+  padding-top: 8px;
+  /* box-shadow: 0px 8px gray; */
+}
+
+.highlight {
+  font-weight: 800;
+  margin-left: 5rem;
+  float: left;
+  padding-top: 2.4px;
+}
+.promo p {
+  padding-right: 3.1rem;
+}
+
+.signupsection {
+  text-align: center;
+  padding-top: 5rem;
+  padding-right: 10rem;
+  color: white;
+}
+
+.signupfield {
+  background-color: white;
+  width: 28rem;
+  margin: auto;
+  border-radius: 0.4rem;
+  height: 28rem;
+  padding-top: 1rem;
+  position: relative;
+}
+
+input {
+  display: block;
+  margin: 1.5rem auto;
+  width: 24rem;
+  height: 3rem;
+  padding-left: 2rem;
+}
+
+.submitbutton {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 24rem;
+  height: 3rem;
+}
+
+form p {
+  padding-top: 1rem;
+  color: hsl(246, 25%, 77%);
+  font-size: 0.7rem;
+  float: left;
+  margin-left: 3.5rem;
+}
+
+.terms {
+  color: hsl(0, 100%, 74%);
+  margin-left: 4px;
+  font-weight: 800;
+}
+
+.fwarning {
+  position: absolute;
+  top: 3.2rem;
+  right: 3rem;
+}
+
+.lwarning {
+  position: absolute;
+  top: 7.7rem;
+  right: 3rem;
+}
+
+.ewarning {
+  position: absolute;
+  top: 12.2rem;
+  right: 3rem;
+}
+
+.pwarning {
+  position: absolute;
+  top: 16.6rem;
+  right: 3rem;
+}
+
+.warningtext {
+  color: hsl(0, 100%, 74%);
+  margin-top: 1.2rem;
+  position: absolute;
+  right: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .textsection {
+    text-align: center;
+    margin-top: 0px;
+    padding: 2rem 6rem;
+    margin-bottom: 0;
+  }
+
+  .signupsection {
+    padding: 0 8rem 4rem 8rem;
+    padding: 0 auto 4rem auto;
+  }
+
+  .promo {
+    height: 4.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .signupsection {
+    padding-left: 4rem;
+  }
+}
